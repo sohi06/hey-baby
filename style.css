@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+
+}
