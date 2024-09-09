@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
-nav{
+                             /* navigation bar */
+
+header nav{
     display: flex;
     justify-content: space-around;
-  background-color: rgb(17, 175, 175);
+  background-color: white;
+  position: sticky;
+  top: 0px;
 
 }
 
@@ -23,7 +27,7 @@ nav ul li{
 
 }
 .search{
-    border: 1px solid rgb(67, 64, 64);
+    border: 1px solid rgb(152, 149, 149);
     gap: 34px;
     display: flex;
     justify-content: center;
@@ -33,3 +37,117 @@ nav ul li{
  border-style: dashed;
 
 }
+                                           /* upper part */
+                                           
+.main{
+    background-image:url("baby clothes.jpg") ;
+    height: 544px;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+    width: 100%;
+     
+}
+.main .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title {
+    font-family: 'Martel Sans', sans-serif;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(216, 103, 32);
+    position: relative;
+   
+   
+    
+}
+.title span{
+ color: rgb(214, 79, 12);
+ font-weight: bolder;
+
+
+}
+.title> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+    margin: 0px 200px 0px 900px;
+  
+}
+
+.title> :nth-child(2) {
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    margin: 0px 200px 0px 900px;
+}
+
+.discount{
+    color: white;
+    background-color: red;
+    justify-content: flex-end;
+  
+    font-size: 86px;
+    border-radius: 0px 40px 10px 0px;
+    padding: 20px;
+    font-weight: bolder;
+    } 
+
+    .dis{
+        margin: 300px 0px;
+    }
+                                     /* searc hbar */ 
+
+.searchbox{
+    display:flex;
+justify-content: center;
+}
+
+.searchage{
+    margin: 30px  30px  30px  30px;
+    font-size: 24px;
+    justify-content:center;
+    align-items: center;
+    height: 60px;
+    width: 170vh;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #b2adad;
+}
+                                 /* item part */
+
+
+.item{
+    display: flex;
+    font-size: 34px;
+  margin: 20px;
+   justify-content:first baseline ;
+   font-weight: bold;
+}
+
+/* .item button{
+    margin: 10px 1000px 10px 10px ;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+} */
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    gap: 24px;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+
