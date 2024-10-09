@@ -63,14 +63,14 @@ nav ul li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: rgb(216, 103, 32);
+    color: rgb(70, 19, 239);
     position: relative;
    
    
     
 }
 .title span{
- color: rgb(214, 79, 12);
+ color: rgb(230, 139, 10);
  font-weight: bolder;
 
 
@@ -78,17 +78,17 @@ nav ul li{
 .title> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    font-size: 64px;
+    font-size: 74px;
     text-align: center;
-    margin: 0px 200px 0px 900px;
+    margin: 60px 200px 0px 600px;
   
 }
 
 .title> :nth-child(2) {
     font-weight: 400;
-    font-size: 34px;
+    font-size: 44px;
     text-align: center;
-    margin: 0px 200px 0px 900px;
+    margin: 0px 200px 0px 800px;
 }
 
 .discount{
